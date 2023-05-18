@@ -27,7 +27,7 @@ def show_stack(stack):
         for item in stack.items[::-1]:
             print(item)
 
-# Menampilkan data dalam Stack
+# Menampilkan data dalam Queue
 def show_queue(queue):
     if queue.empty():
         print("Queue kosong")
