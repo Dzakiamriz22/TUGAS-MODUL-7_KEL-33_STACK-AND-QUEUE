@@ -60,6 +60,11 @@ def remove_queue(queue):
         item = queue.dequeue()
         if item is not None:
             print("Data dihapus:", item)
+        print("Stack yang tersisa :", end="")
+        if queue.empty():
+            print("Stack kosong")
+        else:
+            print(queue.items)
         
 print("===============================")
 print("=== PROGRAM STACK DAN QUEUE ===")
